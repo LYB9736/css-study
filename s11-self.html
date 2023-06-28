@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        width: 1250px;
+        height: 100%;
+        margin: auto;
+      }
+      .nav {
+        display: flex;
+        column-gap: 50px;
+      }
+      .logo-nav {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-left: 40px;
+      }
+      .nav ul {
+        padding-top: 10px;
+        list-style-type: none;
+        display: flex;
+        column-gap: 110px;
+        font-size: 14px;
+        color: rgb(56, 56, 56);
+        font-weight: 900;
+        margin-right: 30px;
+        font-size: 20px;
+      }
+      .info{
+        display: flex;
+        margin-top: 30px;
+        column-gap: 5px;
+      }
+      .app-button1 {
+        border-radius: 18px;
+        font-size: 15px;
+        width: 80px;
+        height: 35px;
+        background-color: red;
+        color: white;
+        border-style: none;
+        font-weight: 600;
+      }
+      .app-button2 {
+        border-radius: 18px;
+        font-size: 15px;
+        width: 80px;
+        height: 35px;
+        background-color: rgb(204, 204, 40);
+        color: white;
+        border-style: none;
+        font-weight: 600;
+      }
+      .app-button3 {
+        border-radius: 18px;
+        font-size: 15px;
+        width: 80px;
+        height: 35px;
+        background-color: rgb(124, 196, 16);
+        color: white;
+        border-style: none;
+        font-weight: 600;
+      }
+      .search{
+        display: flex;
+        justify-content: flex-end;
+        height: 35px;
+        margin-left: 20px;
+      }
+      .main{
+        display: flex;
+        justify-content: center;
+      }
+      .main-image{
+        object-fit: cover;
+        margin: auto;
+      }
+      /* .bottom{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      } */
+      .live{
+        display: flex; 
+        justify-content: center;
+        font-size: 35px;
+        font-weight: 1000; 
+      } 
+      .mc{
+        object-fit: cover;
+      }
+      .images{
+        display: flex; 
+         justify-content: center;
+        margin-top: 30px;
+        column-gap: 20px;
+      }
+      .new{
+        object-fit: cover;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <div class="container">
+          <div class="logo-nav">
+            <img src="./images/logo.png" alt="로고" />
+            <div class="nav">
+              <ul>
+                <li>Menu</li>
+                <li>Store</li>
+                <li>What's New</li>
+                <li>Story</li>
+              </ul>
+              <div class = "info">
+                <button class="app-button1">
+                  <span>임차문의</span>
+                </button>
+                <button class="app-button2">
+                  <span>RECRUIT</span>
+                </button>
+                <button class="app-button3">
+                  <span>ENG</span>
+                </button>
+                <div class ="search">
+                <img src="./images/ico_search.png" alt="검색" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "main">
+            <img class="main-image" src="./images/1686206405999.jpg" alt="메인">
+        </div>
+        <div class = "bottom">
+        <div class = "live">
+            <div class = "mc">McDonald's Live</div>
+        </div>
+        <div>
+        <div class = "images">
+            <img  class = "new"src="./images/1686206858899.jpg" alt="뉴진스">
+            <img  class = "new"src="./images/1685435075718.jpg" alt="맥크리스피">
+            <img  class = "new"src="./images/1686722914159.jpg" alt="스낵랩">
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+  </body>
+</html>
